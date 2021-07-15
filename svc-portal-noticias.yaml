@@ -7,6 +7,6 @@ spec:
   ports:
     - port: 80
       #targetPort:80 #por padrão
-      nodePort: 30001
+      nodePort: 30001 #não sendo informado será escolhida uma porta aleatória
   selector:
     app: portal-de-noticias
