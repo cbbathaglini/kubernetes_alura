@@ -12,3 +12,4 @@ https://worried-fridge-4fb.notion.site/Kubernetes-97bf780a67fc4b34b9ca790a5b1eb6
 |Deletar pod|`kubectl delete pod nginx-pod`|
 |Deletar pod a partir do arquivo|`kubectl delete -f .\primeiro-pod.yaml`|
 |Executar dentro de um pod|`kubectl exec -it portal-de-noticias -- bash`|
+|Listar os serviços|`kubectl get service` ou `kubectl get svc`|
