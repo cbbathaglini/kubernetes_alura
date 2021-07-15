@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
     - name: nginx-container # - representa a declaração de um novo container
-      image: nginx:1.0
+      image: nginx:latest
